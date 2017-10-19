@@ -4,21 +4,12 @@ import java.awt.EventQueue;
 import java.awt.Font;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
-
-import javax.swing.AbstractAction;
 import javax.swing.BoxLayout;
-import javax.swing.JButton;
 import javax.swing.JFrame;
 import javax.swing.JMenu;
 import javax.swing.JMenuBar;
 import javax.swing.JMenuItem;
 import javax.swing.JPanel;
-import javax.swing.MenuSelectionManager;
-import javax.swing.event.ChangeEvent;
-import javax.swing.event.ChangeListener;
-
-import java.awt.event.ActionEvent;
-import java.awt.event.ActionListener;
 
 public class CryptoBalanceWindow extends JFrame{
 	
@@ -33,7 +24,6 @@ public class CryptoBalanceWindow extends JFrame{
 	
 	public CryptoBalanceWindow(){
 		
-		//for(Strin i : )
 		EventQueue.invokeLater(new Runnable() {
 			
 			@Override
@@ -147,7 +137,6 @@ public class CryptoBalanceWindow extends JFrame{
 	}
 	
 	// method that returns a double rounded to the desired number of decimal places
-	
 	private double round_no(double value, int places) {
         if (places < 0) throw new IllegalArgumentException();
         long factor = (long) Math.pow(10, places);
@@ -156,5 +145,3 @@ public class CryptoBalanceWindow extends JFrame{
         return (double) tmp / factor;
     }
 }
-
-
