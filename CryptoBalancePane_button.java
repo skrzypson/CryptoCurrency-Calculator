@@ -1,13 +1,8 @@
 import java.awt.Color;
 import java.awt.Dimension;
 import java.awt.FlowLayout;
-import java.awt.event.ActionEvent;
-import java.awt.event.ActionListener;
-
 import javax.swing.JButton;
 import javax.swing.JPanel;
-import java.awt.event.ActionEvent;
-import java.awt.event.ActionListener;
 
 public class CryptoBalancePane_button extends JPanel{
 	
@@ -24,9 +19,7 @@ public class CryptoBalancePane_button extends JPanel{
 	private void makeButtonPanel(){
 		//creates panel
 		pane1 = new JPanel(new FlowLayout(FlowLayout.RIGHT));
-		//pane1.setPreferredSize(new Dimension(c/4,d/4));
 		pane1.setBackground(new Color(229, 229, 229));
-		//pane1.setAlignmentX(RIGHT_ALIGNMENT);
 		
 		//creates and adds addCurrencyButton button
 		addNewCurrencyButton = new JButton("Add crypto");
