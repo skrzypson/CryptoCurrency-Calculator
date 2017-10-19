@@ -1,2 +1,2 @@
 # CryptoCurrency-Calculator
-A program that calculates your currency balance in fiat based on online cryptocurrency indexes
+A GUI program that calculates your currency balance in fiat based on online cryptocurrency indexes
